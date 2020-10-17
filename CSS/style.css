@@ -162,4 +162,34 @@
 
 }
 
-/**/
+/*5.html animaciones*/
+
+.pelota {
+
+    width: 100px;
+    height: 100px;
+    background-color: #D125F0;
+    border-radius: 50%;
+    animation: balon 4s infinite ;
+    padding: 10px;
+}
+
+/*5.html Keyframe*/
+
+@keyframes balon{
+    25%{
+        transform: translate(300px,0px);
+    }
+
+    50%{
+        transform: translate(300px,300px);
+    }
+    75%{
+        transform: translate(0px,300px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+
+
+}
