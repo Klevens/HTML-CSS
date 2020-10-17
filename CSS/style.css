@@ -170,8 +170,18 @@
     height: 100px;
     background-color: #D125F0;
     border-radius: 50%;
-    animation: balon 4s infinite ;
+    animation: balon 5s infinite ;
     padding: 10px;
+    margin: auto;
+    transition: width 0.5s, height 0.5s;
+    
+}
+
+.pelota:active {
+
+width: 200px;
+height: 200px;
+
 }
 
 .corazon {
@@ -186,6 +196,10 @@
     width: 100%;
 }
 
+
+
+
+/*5.html Keyframe*/
 @keyframes corazao {
     0% {
 
@@ -204,22 +218,24 @@
 }
 
 
-
-/*5.html Keyframe*/
-
 @keyframes balon{
+    
+    0%{
+        transform: translate(200px, 0px);
+    }
+
     25%{
-        transform: translate(300px,0px);
+        transform: translate(-200px, 0px);
     }
 
     50%{
-        transform: translate(300px,300px);
+        transform: translate(200px,200px);
     }
     75%{
-        transform: translate(0px,300px);
+        transform: translate(-200px,200px);
     }
     100%{
-        transform: translate(0px,0px);
+        transform: translate(200px,0px);
     }
 
 
