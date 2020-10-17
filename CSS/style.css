@@ -1,5 +1,124 @@
 
-/* 4 */
+/*Index.html*/
+.cabeza{
+    background-image: url(../IMG/zelda.jpg);
+    background-size: cover;
+    color: #ffffff;
+    font-size: 2em;
+    padding: 2em 0.5em;
+    border: solid 8px black;
+    text-align: right;
+    box-shadow: blue 5px 10px;
+    text-shadow: black 2px 3px 10px;
+    
+}
+/*Index.html - Link Shadow*/
+#linkpng {
+
+    filter: drop-shadow(15px 15px 4px #444444 );
+    padding-top: 1em;
+    width: 30%;
+}
+
+/*Index.html - Background*/
+.inde {
+    background-image: -webkit-linear-gradient(45deg, #D125F0, #86B5EF, #5449E9);
+	background-image: -moz-linear-gradient(45deg, #D125F0, #86B5EF, #5449E9);
+	background-image: -ms-linear-gradient(45deg, #D125F0, #86B5EF, #5449E9);
+}
+
+
+/*Menu design*/
+.menu {
+    border-style: solid;
+    border-color: rgb(5, 37, 78);
+    border-width: 1em;
+    padding: 2em;
+    margin: auto;
+    text-align: center;
+    color: floralwhite;
+    width: 70%;
+    box-shadow: rgb(0, 255, 170) 5px 10px;
+    background-image: -webkit-linear-gradient(45deg, #D125F0, #86B5EF, #5449E9);
+	background-image: -moz-linear-gradient(45deg, #D125F0, #86B5EF, #5449E9);
+	background-image: -ms-linear-gradient(45deg, #D125F0, #86B5EF, #5449E9);
+
+}
+
+/* button A element */
+.linkedin {
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+
+/*button design*/
+.boton1a {
+
+    border-style: groove;
+    padding: 1em;
+    background-color: rgb(84, 33, 179);
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.boton1a:active {
+
+    background-color: rgb(11, 47, 100);
+}
+
+/*1.html background*/
+#bodyuno {
+    background-image: url(../IMG/zelda-1.png);
+    background-size: cover;
+}
+
+/*2.html background*/
+.bodydos {
+
+    background-image: -webkit-linear-gradient(45deg, #D125F0, #86B5EF, #5449E9);
+	background-image: -moz-linear-gradient(45deg, #D125F0, #86B5EF, #5449E9);
+	background-image: -ms-linear-gradient(45deg, #D125F0, #86B5EF, #5449E9);
+
+}
+
+/*2.html IMG Fixed*/
+.dosfixed {
+    
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    
+    background-image: url(../IMG/zelda-2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-origin: content-box;
+}
+
+
+/*3.html background*/
+.bodytres {
+    background-image: url(../IMG/zelda-3.jpg);
+    background-size: cover;
+    color: white;
+}
+
+/*3.html */
+.tap {
+    padding-left: 10%;
+}
+.detalles {
+    background-color: tomato;
+    margin: 3em;
+    padding: 3em;
+}
+
+
+
+/* 4.html */
 .contenedor {
 
     width: 400px;
@@ -10,7 +129,6 @@
     background-image: url(../IMG/z2.jpg);
     background-size: cover;
 }
-
 
 .vermas {
 
@@ -44,133 +162,4 @@
 
 }
 
-/* 4 */
-
-
-
-
-#linkpng {
-
-    filter: drop-shadow(15px 15px 4px #444444 );
-    padding-top: 1em;
-    width: 30%;
-}
-
-
-.inde {
-    background-image: -webkit-linear-gradient(45deg, #D125F0, #86B5EF, #5449E9);
-	background-image: -moz-linear-gradient(45deg, #D125F0, #86B5EF, #5449E9);
-	background-image: -ms-linear-gradient(45deg, #D125F0, #86B5EF, #5449E9);
-}
-
-.bodydos {
-
-    background-image: -webkit-linear-gradient(45deg, #D125F0, #86B5EF, #5449E9);
-	background-image: -moz-linear-gradient(45deg, #D125F0, #86B5EF, #5449E9);
-	background-image: -ms-linear-gradient(45deg, #D125F0, #86B5EF, #5449E9);
-
-}
-
-
-
-.cabeza{
-    background-image: url(../IMG/zelda.jpg);
-    background-size: cover;
-    color: #ffffff;
-    font-size: 2em;
-    padding: 2em 0.5em;
-    border: solid 8px black;
-    text-align: right;
-    box-shadow: blue 5px 10px;
-    text-shadow: black 2px 3px 10px;
-    
-}
-
-
-#uno {
-    background-image: url(../IMG/zelda-1.png);
-    background-size: cover;
-}
-
-
-
-.dos {
-    
-    width: 90%;
-    margin: auto;
-    
-    background-image: url(../IMG/zelda-2.jpg);
-    background-attachment: fixed;
-    
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-origin: content-box;
-   
-    
-
-
-}
-
-.detalles {
-
-    background-color: tomato;
-    margin: 3em;
-
-    padding: 3em;
-}
-
-.dosp {
-    
-    padding: 40%;
-    margin: auto;
-}
-
-.tres {
-    background-image: url(../IMG/zelda-3.jpg);
-    background-size: cover;
-    color: white;
-}
-
-.menu {
-    border-style: solid;
-    border-color: rgb(5, 37, 78);
-    border-width: 1em;
-    padding: 2em;
-    margin: auto;
-    text-align: center;
-    
-    color: floralwhite;
-    width: 70%;
-    box-shadow: rgb(0, 255, 170) 5px 10px;
-
-    background-image: -webkit-linear-gradient(45deg, #D125F0, #86B5EF, #5449E9);
-	background-image: -moz-linear-gradient(45deg, #D125F0, #86B5EF, #5449E9);
-	background-image: -ms-linear-gradient(45deg, #D125F0, #86B5EF, #5449E9);
-
-}
-
-.boton1a {
-
-    border-style: groove;
-    padding: 1em;
-    background-color: rgb(47, 32, 75);
-    
-    
-    text-align: center;
-}
-
-
-.boton1a:active {
-
-    background-color: rgb(11, 47, 100);
-}
-
-
-
-
-.linkedin {
-    text-decoration: none;
-    color: white;
-    margin: auto;
-    text-align: center;
-}
+/**/
